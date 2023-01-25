@@ -10,7 +10,6 @@ int main(int argc, char** argv) {
 	int nResto = -1;
 	int nMcd = 0;
 
-	
 	int numArguments = (argc-1);
 	if (numArguments>=2) {
 		nDividendoIniziale = atoi(argv[1]);
@@ -35,8 +34,6 @@ int main(int argc, char** argv) {
 		nDivisore = nResto;
 	} while (nResto>0);
 	printf("MCD( %i , %i ) = %i\n",nDividendoIniziale, nDivisoreIniziale, nMcd);
-	
-	
 	
 	return (0);
 }
